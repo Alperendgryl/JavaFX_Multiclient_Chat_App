@@ -7,8 +7,6 @@ import java.net.Socket;
 import java.util.Date;
 import javax.swing.JOptionPane;
 
-//MUHAMMED ALPEREN DOĞRUYOL 218CS2085
-//ONUR BIÇAK 218CS2103
 public class Server {
 
     private static ServerSocket serverSocket = null;
