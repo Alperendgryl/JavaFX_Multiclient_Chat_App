@@ -26,8 +26,6 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 
-//MUHAMMED ALPEREN DOĞRUYOL 218CS2085
-//ONUR BIÇAK 218CS2103
 public class Client extends Thread {
 
     static String IPAddress;
@@ -179,7 +177,6 @@ public class Client extends Thread {
     }
 
     static class ChatUI extends JFrame implements Observer { //it is an interface.
-
         /*
         TextField used the text of the field as the command string for the ActionEvent . 
         JTextField will use the command string set with the setActionCommand method if not null,
@@ -208,11 +205,11 @@ public class Client extends Thread {
             topLabel.setSize(5, 40);
             add(topLabel, BorderLayout.NORTH);
 
-            onlineUsers = new JTextArea(30, 10); //row, columns
-            onlineUsers.setEditable(false);
-            onlineUsers.setLineWrap(true);
-            onlineUsers.setText("   ONLINE USERS\n");
-            add(new JScrollPane(onlineUsers), BorderLayout.EAST);
+            //onlineUsers = new JTextArea(30, 10); //row, columns
+            //onlineUsers.setEditable(false);
+            //onlineUsers.setLineWrap(true);
+            //onlineUsers.setText("   ONLINE USERS\n");
+            //add(new JScrollPane(onlineUsers), BorderLayout.EAST);
 
             textArea = new JTextArea(30, 40); //row, columns
             textArea.setEditable(false);
